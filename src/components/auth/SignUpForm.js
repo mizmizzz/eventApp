@@ -51,6 +51,7 @@ const SignUpForm = () => {
   const submitHandler = async (e) => {
 
     e.preventDefault();
+    
     const payload = {
       email: enteredEmail,
       password: enteredPassword
@@ -105,3 +106,4 @@ const SignUpForm = () => {
 };
 
 export default SignUpForm;
+
