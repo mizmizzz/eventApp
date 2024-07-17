@@ -9,7 +9,6 @@ const Main = () => {
       <h2>{userData.email}</h2>
       <h3>현재 권한 : [ {userData.role} ]</h3>
       {/* 다른 라우트의 액션을 트리거하는 방법 */}
-
       <Form action="/logout" method="POST">
         <button>LogOut</button>
       </Form>
